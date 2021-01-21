@@ -1,6 +1,6 @@
 # Dockerfile.production
 
-FROM golang:1.14 as builder
+FROM registry.semaphoreci.com/golang:1.15 as builder
 
 ENV APP_USER app
 ENV APP_HOME /go/src/mathapp
@@ -16,7 +16,8 @@ RUN go mod download
 RUN go mod verify
 RUN go build -o mathapp
 
-FROM debian:buster
+# FROM debian:buster
+FROM registry.semaphoreci.com/golang:1.15
 
 ENV APP_USER app
 ENV APP_HOME /go/src/mathapp
