@@ -10,7 +10,7 @@ blocks:
       jobs:
         - name: go test
           commands:
-            - sem-version go 1.11
+            - sem-version go 1.14
             - export GO111MODULE=on
             - export GOPATH=~/go
             - 'export PATH=/home/semaphore/go/bin:$PATH'
@@ -19,4 +19,3 @@ blocks:
             - go get ./...
             - go test ./...
             - go build -v .
-
