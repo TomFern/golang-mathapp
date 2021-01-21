@@ -10,7 +10,7 @@ blocks:
       jobs:
         - name: Install
           commands:
-            - sem-version go 1.14
+            - sem-version go 1.15
             - checkout
             - cd src
             - 'cache restore vendor-$SEMAPHORE_GIT_BRANCH-$(checksum go.mod),vendor-$SEMAPHORE_GIT_BRANCH,vendor-master'
@@ -25,7 +25,7 @@ blocks:
     task:
       prologue:
         commands:
-          - sem-version go 1.14
+          - sem-version go 1.15
           - checkout
           - cd src
           - 'cache restore vendor-$SEMAPHORE_GIT_BRANCH-$(checksum go.mod),vendor-$SEMAPHORE_GIT_BRANCH,vendor-master'
