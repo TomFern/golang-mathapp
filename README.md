@@ -2,7 +2,7 @@
 
 [![Build Status](https://tomfern.semaphoreci.com/badges/golang-mathapp/branches/master.svg)](https://tomfern.semaphoreci.com/projects/golang-mathapp)
 
-An example demo project for https://semaphoreci.com/community/tutorials/how-to-deploy-a-go-web-application-with-docker
+An example demo project for [How To Deploy a Go Web Application with Docker](https://semaphoreci.com/community/tutorials/how-to-deploy-a-go-web-application-with-docker)
 
 ## Docker Images
 
