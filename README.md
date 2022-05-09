@@ -28,7 +28,7 @@ $ docker run -it --rm \
 
 MIT License
 
-Copyright (c) 2021 Rendered Text
+Copyright (c) 2022 Rendered Text
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
