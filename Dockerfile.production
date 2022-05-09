@@ -29,7 +29,7 @@ WORKDIR "$APP_HOME"
 COPY src/conf/ conf/
 COPY src/views/ views/
 #COPY --chown=0:0 --from=builder $APP_HOME/mathapp $APP_HOME
-COPY "$APP_HOME"/mathapp $APP_HOME
+COPY --from=builder "$APP_HOME"/mathapp $APP_HOME
 
 
 EXPOSE 8010
