@@ -9,10 +9,7 @@ An example demo project for [How To Deploy a Go Web Application with Docker](htt
 Build development image:
 
 ```bash
-$ docker build \
-         --build-arg USER_ID=$(id -u) \
-         --build-arg GROUP_ID=$(id -g) \
-         -t mathapp-development .
+$ docker build -t mathapp-development .
 ```
 
 Run container:
