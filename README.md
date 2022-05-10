@@ -1,6 +1,6 @@
 # Example Dockerized Go Application
 
-[![Build Status](https://tomfern.semaphoreci.com/badges/golang-mathapp/branches/master.svg)](https://tomfern.semaphoreci.com/projects/golang-mathapp)
+[![Build Status](https://semaphore-demos.semaphoreci.com/badges/golang-mathapp/branches/master.svg?key=3c5ab555-0c9b-44df-806e-cacc1b5b416b)](https://semaphore-demos.semaphoreci.com/projects/golang-mathapp)
 
 An example demo project for [How To Deploy a Go Web Application with Docker](https://semaphoreci.com/community/tutorials/how-to-deploy-a-go-web-application-with-docker)
 
